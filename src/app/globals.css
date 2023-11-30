@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#navbar ul li.active a {
+    background: #20B15A;
+    color: #fff;
+    border-radius: 4px;
+}
+
+@media (max-width: 1280px) {
+    .max-w-screen-xl {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+#navbar {
+    padding: 20px 0;
+}
+ #navbar ul li {
+    padding: 5px 0;
+ }
+}
